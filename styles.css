@@ -1,0 +1,287 @@
+body{
+    background-color: black;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0 ;
+
+}
+.logo-img{
+    width: 30%;
+    display: inline;
+}
+
+.title-img{
+padding-top: 5%;
+width: 1300px;
+height: 700px;
+
+}
+
+.mid-left{
+    position: absolute;
+    color: #F1EFEF;
+    top: 20%;
+    left: 4%;
+    margin-top: 5%;
+    text-align: left;
+
+}
+
+h1{
+    text-align: center;
+    font-family:"chakra petch";
+}
+p{
+  font-family:"chakra petch";
+}
+h3{
+  font-family:"chakra petch";
+  color: white;
+}
+h2{
+  font-family:"chakra petch";
+}
+hr{
+  border: dotted 6px;
+    color: white;
+    width: 6%;
+    border-bottom: none;
+    margin: 4% auto 2% auto;
+}
+
+slideshow-container {
+
+  max-width: 100%;
+  overflow: hidden;
+}
+
+
+nav {
+  display: flex; /* 1 */
+  justify-content: space-between; /* 2 */
+  padding: 1rem 2rem; /* 3 */   
+  font-family:"Oswald-SemiBold"; 
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px; 
+}
+
+nav ul {
+  display: flex; /* 5 */
+  list-style: none; /* 6 */
+}
+
+nav li {
+  padding-left: 1rem; /* 7! */
+}
+nav a {
+  text-decoration: none;
+  color: #F1EFEF;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.title-img{
+padding-top: 5%;
+width: 1300px;
+height: 700px;
+
+}
+.mid-left{
+  position: absolute;
+  color: #F1EFEF;
+  top: 20%;
+  left: 4%;
+  margin-top: 5%;
+  text-align: left;
+
+}
+
+
+.nav-item{
+  background-color: black;
+  color: white;
+  float: right;
+  padding: 0 0 0 0;
+  border: 0 0 0 0;
+  border-width: 0 0 0 0;
+
+}
+.nav-item:hover{
+  background-color: #EEEDED;
+  color: black;
+}
+
+
+/* #first{
+  margin-top: 5%;
+  text-align: center;
+  width: 300px;
+  height: 200px ;
+  float: right;
+  clear: right;
+  margin-bottom: 5%;
+  color: #fff;
+  display: block;
+} */
+
+#second{
+  margin-top: 5%;
+  text-align: center;
+  float: left;
+  width: 300px;
+  height: 200px ;
+  margin-bottom: 5%;
+}
+#third{
+  margin-top: 5%;
+  text-align: center;
+  float: right;
+  width: 300px;
+  height: 200px ;
+  margin-bottom: 5%;
+}
+
+
+
+
+.slideshow img {
+  width: 600px; /* Make images responsive within the container */
+  height:500px; /* Maintain the aspect ratio */
+  display:block;
+  position: relative;
+  float: left;
+}
+.car-1{
+  color: white;
+  text-align: center;
+  margin: 50px 0px 30px 40px;
+}
+.car-2{
+  color: white;
+  text-align: center;
+  margin: 50px 0px 30px 40px;
+}
+.specs-1{
+  float: left;
+  font-size:small;
+  text-align: left;
+  line-height: 1.5rem;
+  margin-top: 50px;
+  right: inherit;
+
+}
+#slideshow1{
+  float: right;
+  margin-right: 5px;
+}
+#slideshow2{
+  position: absolute;
+  top: 1550px;
+  left: 10px;
+  float: left;
+}
+.specs-2{
+  float: right;
+  position: absolute;
+  top: 1600px;
+  right: 0;
+  font-size: small;
+  text-align: left;
+  line-height: 1.5rem;
+  margin-top: 50px;
+}
+#slideshow3{
+position: absolute;
+top: 2150px;
+right: 10px;
+float: right;
+}
+.specs-3{
+  position: absolute;
+  top:2200px;
+  left: 5px;
+  float: left;
+
+}
+/* ... Your existing CSS rules ... */
+
+/* Add the following new CSS rules for layout adjustments */
+.catalogue{
+  margin-top:20px ;
+}
+.foot{
+  position: absolute;
+  top: 2700px;
+  text-align: center;
+  right: 290px;
+  color: white;
+}
+.without{
+  height: 200px;
+  width: 200px;
+}
+
+ul{
+  list-style-type: none;
+}
+.footer-col-3{
+  position: absolute;
+  left: 200px;
+}
+.footer-col-4{
+  position: absolute;
+  right: 200px;
+  text-align: center;
+}
+/* Add these CSS styles to your existing CSS code */
+.favorite.styled {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+.favorite.styled:hover {
+  transform: scale(1.1);
+}
+
+.favorite.styled a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.favorite.styled h3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add the following CSS rules to style the links in the foot section as buttons */
+.foot a.favorite.styled {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 10px 20px; /* Adjust padding as needed */
+  margin: 5px; /* Adjust margin as needed */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.foot a.favorite.styled:hover {
+  transform: scale(1.1);
+}
+
+.headings{
+  margin-bottom: 150px;
+}.fst{
+  margin-top: 20px;
+}
